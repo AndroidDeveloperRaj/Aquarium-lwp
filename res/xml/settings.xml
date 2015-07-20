@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:key="myparticle_settings"
+    android:title="@string/settings" >
+
+    <ListPreference
+        android:entries="@array/bgnames"
+        android:entryValues="@array/bgprefix"
+        android:key="bg"
+        android:defaultValue="bg1"
+        android:title="@string/bg_title" />
+    <ListPreference
+        android:entries="@array/amountnames"
+        android:entryValues="@array/amountprefix"
+        android:key="amount"
+        android:defaultValue="0"
+        android:title="@string/amount_title" />
+    <ListPreference
+        android:entries="@array/sizenames"
+        android:entryValues="@array/sizeprefix"
+        android:key="size"
+        
+        android:defaultValue="0.0"
+        android:title="@string/size_title" />
+    <ListPreference
+        android:entries="@array/speednames"
+        android:entryValues="@array/speedprefix"
+        android:key="speed"
+        android:defaultValue="0"
+        android:title="@string/speed_title" />
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="movebg"
+        android:title="@string/movebg_title" />
+
+    <Preference
+        android:key="exitlink"
+        android:title="Save and exit" />
+   <!--  <Preference
+        android:key="link"
+        android:title="More fun apps" />
+ -->
+</PreferenceScreen>

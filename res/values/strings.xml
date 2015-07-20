@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="admob_interstetial_id">ca-app-pub-1494541744827949/1644893914</string>
+    <string name="banner">ca-app-pub-1494541744827949/9168160713</string>
+    <string name="app_name">Aquarium Live Wallpaper</string>
+    <string name="service_name">Aquarium Live Wallpaper</string>
+    <string name="settings">Settings</string>
+    
+    <string name="amount_title">Number of Bubbles</string>
+    <string-array name="amountnames">
+        <item>"None"</item>
+        <item>"Not much"</item>
+        <item>"Much"</item>
+        <item>"Very much"</item>
+    </string-array>
+    <string-array name="amountprefix">
+        <item>"0"</item>
+        <item>"11"</item>
+        <item>"20"</item>
+        <item>"30"</item>
+    </string-array>
+
+    <string name="size_title">Size of Bubbles</string>
+    <string-array name="sizenames">
+        <item>"None"</item>
+        <item>"Small"</item>
+        <item>"Normal"</item>
+        <item>"Big"</item>
+    </string-array>
+    <string-array name="sizeprefix">
+        <item>"0.0"</item>
+        <item>"0.3"</item>
+        <item>"0.5"</item>
+        <item>"0.8"</item>
+    </string-array>
+    
+    <string name="speed_title">Falling speed</string>
+    <string-array name="speednames">
+        <item>"None"</item>
+        <item>"Slow"</item>
+        <item>"Normal"</item>
+        <item>"Fast"</item>
+    </string-array>
+    <string-array name="speedprefix">
+         <item>"0"</item>
+        <item>"1"</item>
+        <item>"15"</item>
+        <item>"35"</item>
+    </string-array>
+
+    <string name="bg_title">Aquarium Set</string>
+    <string-array name="bgnames">
+        <item>"Aquarium 1"</item>
+        <item>"Aquarium 2"</item>
+        <item>"Aquarium 3"</item>
+        <item>"Aquarium 4"</item>
+        <item>"Aquarium 5"</item>
+    </string-array>
+    <string-array name="bgprefix">
+        <item>"bg1"</item>
+        <item>"bg2"</item>
+        <item>"bg3"</item>
+        <item>"bg4"</item>
+        <item>"bg5"</item>
+    </string-array>
+
+    <string name="movebg_title">Moving background</string>
+
+</resources>
