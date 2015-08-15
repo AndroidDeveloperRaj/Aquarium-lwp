@@ -108,7 +108,7 @@ public boolean onKeyDown(int keyCode, KeyEvent event) {
 					public void onClick(DialogInterface dialog, int which) {
 						dialog.dismiss();
 						
-						gotoplay(getPackageName());
+						searchonplay(getPackageName());
 					}
 				});
 		alertDialog.setButton(AlertDialog.BUTTON_POSITIVE, "Exit",
@@ -126,7 +126,7 @@ public boolean onKeyDown(int keyCode, KeyEvent event) {
 	return false;// super.onKeyDown(keyCode, event);
 }
 
- public void gotoplay(String name) {
+ public void searchonplay(String name) {
 
 		try {
 			String url = "market://details?id=" + name;
